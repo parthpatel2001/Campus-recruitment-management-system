@@ -1,0 +1,221 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', serif;
+
+ }
+ /* Design Form */
+ .form-box {
+    width: 70%;
+    margin: auto;
+    height: auto;
+}
+
+/* Design a rows */
+.row-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.row-2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.section-1 {
+    width: 50%;
+    height: auto;
+    padding: 0px 10px;
+}
+
+.section-2 {
+    width: 50%;
+    height: auto;
+    /* background-color: yellow; */
+}
+
+.section-3 {
+    width: 50%;
+    height: auto;
+    padding: 0px 10px;
+    padding-top: 9px;
+}
+
+.section-4 {
+    width: 50%;
+    height: auto;
+    padding-top: 5px;
+}
+
+.image-1 {
+    width: 100%;
+    margin-top: 10px;
+    height: auto;
+}
+
+/* Design a text Field */
+.section-1 .txt_field{
+    margin: 28px 0px 0px 0px;
+    position: relative;
+
+
+} 
+
+
+.section-2 .txt_field,
+.section-3 .txt_field,
+.section-4 .txt_field {
+    position: relative;
+    margin: 0px 0px 28px 0px
+}
+
+.txt_field input {
+    width: 80%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: none;
+    outline: none;
+}
+.txt_field select{
+    width: 82%;
+    padding: 0px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: none;
+    outline: none;
+}
+
+.txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    color: black;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.txt_field span::before {
+    content: '';
+    position: absolute;
+    top: 38px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+}
+
+.txt_field input:focus~label,
+.txt_field input:valid~label {
+    top: -5px;
+    color: #2691d9;
+}
+
+.txt_field input:focus~span::before,
+.txt_field input:valid~span::before {
+    width: 83%;
+}
+
+
+/* Style Address field */
+ .txt_field_address {
+    width: 100%;
+    position: relative;
+    margin-top: 10px 0px;
+    margin-left: 7px;
+}
+
+.txt_field_address input {
+    width: 90.5%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: none;
+    outline: none;
+}
+
+.txt_field_address label {
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    color: black;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.txt_field_address span::before {
+    content: '';
+    position: absolute;
+    top: 38px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+}
+
+.txt_field_address input:focus~label,
+.txt_field_address input:valid~label {
+    top: -5px;
+    color: #2691d9;
+}
+
+.txt_field_address input:focus~span::before,
+.txt_field_address input:valid~span::before {
+    width: 92%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Design a Button */
+.button-1 {
+    width: 100%;
+    text-align: center;
+    height: auto;
+    padding-top: 50px;
+}
+
+#btn {
+    padding: 10px 70px;
+    font-size: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 4px black;
+}
+
+
+
+/* Design a disable input (class input) */
+.input1 label {
+    top: -5px;
+    color: #2691d9;
+}
+
+.input1 span {
+    background: #2691d9;
+    width: 83%;
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: 2px;
+    background: #2691d9;
+}

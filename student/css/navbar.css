@@ -1,0 +1,85 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', serif;
+}
+
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.profile_pic {
+    width: 50px;
+    height: auto;
+}
+
+.profile_pic a img {
+    width: "40px";
+    height: "auto";
+    margin-top: -10px;
+    border-radius: 50%;
+}
+
+#edit_profile_button {
+    display: none;
+}
+.path{
+    font-family: sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:30px;
+    box-shadow: 0px 0px 8px black;
+     }
+
+     .navbar-setbackground {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../image/navbarbg.jpeg");
+    }
+
+/* Make Responsive navrbar*/
+
+@media screen and (min-width: 480px) and (max-width: 990px) {
+    
+    .logo {
+        width: 10%;
+        height: auto;
+    }
+
+    #edit_profile_button {
+        display: block;
+    }
+    .profile_pic
+    {
+        width: auto;
+        height: auto;
+    }
+    #image-1 {
+        display: none;
+    }
+    #image-link {
+        display: none;
+    }
+}
+  
+         
+@media screen and (max-width: 480px) {
+    .logo {
+         width: 20%;
+        height: auto; 
+    }
+    #edit_profile_button {
+        display: block;
+    }
+    .profile_pic
+    {
+        width: auto;
+        height: auto;
+    }
+    #image-1 {
+        display: none;
+    }
+    #image-link {
+        display: none;
+    }
+}

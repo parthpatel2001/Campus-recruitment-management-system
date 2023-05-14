@@ -1,0 +1,82 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+h4{
+margin-top: 30px;
+    margin-left: 50px;
+    color: rgb(63, 64, 65);
+}
+
+.filter-option{
+	width: 90%;
+	height: 10vh;
+	/* background-color:blue; */
+	margin: auto;
+	padding-bottom: 10px;
+}
+.table{
+	width: 90%;
+	min-height: 52vh;
+	/*border: 1px solid black;
+	border-radius: 5px;*/
+	/*background-color:red;*/
+	margin: auto; 
+	padding-top: 4px;
+	padding-bottom: 10px;
+}
+.table table{
+	width: 99%;
+	border: 1px solid black;
+	text-align: center;
+	margin: auto;
+	box-shadow: 0px 0px 1px black;
+}
+.table table tr th{
+	padding: 7px 2px;
+}
+/*tr:nth-child(even){background-color: #f2f2f2}*/
+td{
+	padding: 7px 2px;
+	color: #3e4145;
+}
+
+
+/* Design Filter option */
+.firstcolumne {
+	border: 0px;
+}
+
+/* Next and Previous button style */
+.buttons {
+	width: 100%;
+	height: 5vh;
+	/* background-color: red; */
+	padding: 4px;
+}
+
+.btnsection {
+
+	float: right;
+}
+
+.buttons button {
+	margin-left: 10px;
+	padding: 4px 30px;
+	background-color: #0047b1;
+	color: white;
+	border: 0px;
+
+}
+
+.buttons button:hover {
+
+	background-color: #1E78FF;
+
+}
+
+
+#btn{
+	border: none;
+	background-color: transparent;
+}
